@@ -1,7 +1,9 @@
 # FibrWM
 
+A work-in-progress wayland compositor build for [fibreglass](https://github.com/dealerofallthecats/fibreglass).
 
-Commands needed to install wayland (on fedora)
-```bash
-sudo dnf install doxygen expat-devel xmlto
-```
+Planned features:
+- Custom shaders for window rendering achieved by using [Kay](https://github.com/CuarzoSoftware/Kay)
+- Customizable window borders/decoration
+- Dynamic configuration achieved by using dbus protocols (compiled into a wrapper program for ease-of-use)
+- Custom tiling definition
