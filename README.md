@@ -1,6 +1,6 @@
 # FibrWM
 
-A work-in-progress wayland compositor build for [Fibreglass](https://github.com/dealerofallthecats/fibreglass).
+A work-in-progress wayland compositor build for [Fibreglass](https://github.com/dealerofallthecats/fibreglass), made with [Louvre](https://github.com/CuarzoSoftware/Louvre/).
 
 Planned features:
 - Custom shaders for window rendering achieved by using [Kay](https://github.com/CuarzoSoftware/Kay)
