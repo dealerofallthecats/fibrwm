@@ -7,7 +7,7 @@
 int main(int, char *[])
 {
     /* Enable Louvre fatal logs */
-    setenv("LOUVRE_DEBUG", "1", 0);
+    setenv("LOUVRE_DEBUG", "4", 0);
 
     /* Enable SRM fatal logs */
     setenv("SRM_DEBUG", "1", 0);

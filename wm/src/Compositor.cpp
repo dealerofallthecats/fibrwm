@@ -56,7 +56,7 @@ void Compositor::initialized()
     }
 
     /* Sets a background wallpaper using swaybg */;
-    LLauncher::launch(std::string("swaybg -m fill -i ") + (compositor()->defaultAssetsPath() / "wallpaper.png").string());
+    //LLauncher::launch(std::string("swaybg -m fill -i ") + (compositor()->defaultAssetsPath() / "wallpaper.png").string());
 
     /* Launches Waybar */;
     LLauncher::launch("waybar");

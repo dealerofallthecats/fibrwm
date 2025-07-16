@@ -54,7 +54,17 @@ void Keyboard::keyEvent(const LKeyboardKeyEvent &event)
         if (LEFT_META && event.keyCode() == KEY_W) {
             if (LSurface* focusedSurface = focus()) {
                 if (focusedSurface->toplevel()) {
-                    focusedSurface->toplevel()->closeRequest();
+                    focusedSurface->toplevel()->();
+                }
+            }
+        }
+
+        if (LEFT_META && event.keyCode() == KEY_UP) {
+            if (LSurface* focusedSurface = focus()) {
+                if (focusedSurface->maximized()) {
+                    focusedSurface->unsetMaximizedRequest();
+                } else {
+                    focusedSurface->setMaximizedRequest();
                 }
             }
         }
